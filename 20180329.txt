@@ -1,0 +1,30 @@
+.$mount 挂在
+ render 底层 h 对app进行渲染
+组件能被其他页面复用
+导入样式
+import ‘ 路径就行’
+router/ psth‘/’components /
+@ 会映射为src
+面包屑 组件
+插槽 span 
+slot 根据名字匹配
+ slot class 插槽
+
+refs 引用
+快速定位节点 返回vue实例 或者dom节点
+app.￥slot
+isserver 服务端渲染才用 
+watch 组件的方法
+on 监听事件
+emit 触发
+once 只进行一次
+app. forceupdate 组件强制重新渲染一次
+let i=0
+i++
+先不进行赋值 然后进行调用 强制渲染
+set （app.obj ‘a’i） 给某个属性设置值
+delete删除
+nexttick  异步渲染
+
+nexttick 下次更新的时候调用 （callback）
+vue实例 方法 属性  this 就是app  就是这个实例  48分钟
