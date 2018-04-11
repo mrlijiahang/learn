@@ -28,3 +28,34 @@ nexttick  异步渲染
 
 nexttick 下次更新的时候调用 （callback）
 vue实例 方法 属性  this 就是app  就是这个实例  48分钟
+
+vue 声生命周期
+
+beforecreate
+
+mounted
+undated
+actived
+desteoyed
+
+mount 把东西挂在html节点上
+app。$mounter('#root')
+before updata 在更新的时候 有数据会有
+destroy 解除watch 跟监听
+actived keepalive
+是啥 不知道
+create 拿不到dom节点
+dom 在mounted里面
+
+mount 不会在服务端 因为没有dom
+this 不一样 
+init
+data在created以后
+render （）{
+}在beforemout 在mount中间
+vue实例的生命周期
+rendererror（h err）{
+return j（）
+}
+本组件时候渲染成功
+errcaptured 收集线上错误  除非停止向上冒泡 要不都能拿到 可以正式环境 1.07.29
