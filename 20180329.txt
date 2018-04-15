@@ -59,3 +59,25 @@ return j（）
 }
 本组件时候渲染成功
 errcaptured 收集线上错误  除非停止向上冒泡 要不都能拿到 可以正式环境 1.07.29
+
+render (h err)
+new vue({
+el
+template
+三元运算符
+1 ？1 ：2
+{{ isactive}}
+可以写简单的运算
+eslint-disable -line
+ p  v-html='html'
+:id  v-bind v-on;click  
+: class { active :!active}
+:class '[]'
+})
+computed watch
+:style ='styles'
+后面样式替代前面的
+appearance ; none
+去除浏览器默认样式
+
+ 1 .24.56 computed
