@@ -81,3 +81,58 @@ appearance ; none
 去除浏览器默认样式
 
  1 .24.56 computed
+字符串的模板拼接
+
+computed{
+声明方法
+name （） {
+return
+
+}
+}
+v-model=‘’
+computed 不会重新计算
+如果computed内的值不变不会进行不计算  而方法会
+
+获取computed 
+设置computed
+
+尽量不要用computed 属性来set
+
+watch：{
+handler
+
+}
+刚开始watch不出发  watch监听数据变化
+
+watch加handler 直接执行
+deep  true
+deep 遍历object 任何属性
+
+不要在computed 跟watch 不要修改原来的属性  要不容易出错 不可以给赋值  要不就无线循环了
+
+v-bind：id 
+v-html=html
+v-show  display：none
+v-if 直接不放在dom里面
+变dom节点会重拍重回 性能问题
+
+v-if v-else-if
+
+v-for
+item in items
+item index
+（val key index） in obj
+：key  dom节点服用问题  key：item.id 不要用index用key  会导致错误的缓存
+
+@click v-on：click
+
+input v-model 绑定
+
+2-02 checkbox
+
+
+
+
+
+
