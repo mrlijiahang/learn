@@ -131,6 +131,76 @@ input v-model 绑定
 
 2-02 checkbox
 
+:value='1' v-model=arr
+
+v-model radio 只能选中一个 :value
+.number 修饰符 .trim 去除首尾空格
+.lazy 点开才有区别 
+
+v-pre 不会解析 v-cloak v-once 只能触发一次
+
+组件化开发
+vue.component（‘cop’， component）
+components：{
+
+}
+data （）{
+return{
+text
+:123
+}
+}
+
+不用全局对象 要不组件有影响 data 用fuction定义
+
+props：{
+active： boolean
+props 属于类型检查功能
+propone string
+}
+不应该主动修改props里面的内容
+
+该外部组件的props
+应该子组件 调用父组件的方法
+this.￥emit（）change（）
+
+2.32.51 props的相关东西
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
