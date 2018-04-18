@@ -165,7 +165,7 @@ propone string
 this.￥emit（）change（）
 
 2.32.51 props的相关东西
-
+ 今天晚上没学习 妈个鸡
 
 
 
