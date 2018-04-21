@@ -1,0 +1,39 @@
+<template>  
+  <div class="train-city">  
+    <span @click='select(`大连`)'>大连</span>  
+  </div>  
+</template>  
+<script>  
+export default {  
+  name:'trainCity',  
+  methods:{  
+    select(val) {  
+      let data = {  
+        cityname: val  
+      };  
+      this.$emit('showCityName',data);//select事件触发后，自动触发showCityName事件  
+    }  
+  }  
+}  
+</script>  
+
+
+<template>  
+    <trainCity @showCityName="updateCity" :index="goOrtoCity"></trainCity> //监听子组件的showCityName事件。  
+<template>  
+<script>  
+export default {  
+  name:'index',  
+  data () {  
+   return {  
+      toCity:"北京"  
+    }  
+  }  
+  methods:{  
+    updateCity(data){//触发子组件城市选择-选择城市的事件    
+      this.toCity = data.cityname;//改变了父组件的值  
+      console.log('toCity:'+this.toCity)        
+    }  
+  }  
+}  
+</script>  
