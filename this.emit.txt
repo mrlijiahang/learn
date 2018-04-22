@@ -37,3 +37,4 @@ export default {
   }  
 }  
 </script>  
+这个不是双向绑定 相当于事件代理 b-model sync
