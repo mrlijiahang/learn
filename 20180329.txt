@@ -167,6 +167,12 @@ this.￥emit（）change（）
 2.32.51 props的相关东西
  今天晚上没学习 妈个鸡
 
+props V-model 
+model {prop 
+
+event}
+
+编辑器 v-model 自己定义
 
 
 

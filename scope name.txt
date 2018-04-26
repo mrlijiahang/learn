@@ -1,0 +1,61 @@
+scope 带名字的
+slot-scope=‘props’ props.value
+作用域
+ref 组件是 vue 
+ref dom节点
+
+不建议操作vue
+this。$parents。$options。name
+
+proivide 属性 初始化  return 对象
+爷爷对应
+才能调用provide 不提供重新渲染
+
+
+inject 【】
+object。defineproperty（data val）{
+get（）
+enumerable true
+
+}
+作为return
+provide inject 跨级别的属性沟通
+
+render方法
+render （）{
+
+return this。$createElement（）
+  
+}
+
+render （createElement）{
+
+return createElement（
+com {
+ref： ‘dasda ’
+
+ }
+）
+  
+}
+
+
+createElement 第三个参数 必须是数组
+render function
+vnode 的虚拟dom
+  
+native 绑定在根节点上
+domprops innerhtml 替换
+
+
+
+
+
+
+
+
+3.39.55
+
+
+
+
