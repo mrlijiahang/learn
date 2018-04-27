@@ -1,0 +1,8 @@
+meta
+路由带的东西
+
+还有带着/APP/：id 
+还有translation
+
+query对象  路由带的
+
