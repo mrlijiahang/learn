@@ -1,0 +1,37 @@
+带id  
+然后props true
+可以调用组件 然后可以用
+$route 当前页面包含的信息
+
+路由使用高级内容
+命名视图
+
+
+路由守卫
+router.beforeeach
+
+beforeresolve
+
+aftereach
+
+判断是否登录 to.fullpath
+else  next（）
+replace 去掉记录  routerview
+
+路由钩子
+beforeenter 进入之前
+必须用next（）
+在each resolve 中间
+
+在next 中 vm 对象 可以用了 vm。id
+
+global.confirm（ are you sure） 
+
+vue router 异步加载
+在component  在进入的时候在进行加载  
+在component 写 import
+
+babel -pligin -synt
+在plugins 载入 sytax-dynamic-inportant
+
+异步路由  加载速度  不一下把所有路由全加入
