@@ -1,0 +1,74 @@
+store .state modules .a .text
+区分store里面的东西
+
+模块化开发
+用mapgetter 啥的 就费劲了
+
+vuex namespaced true 命名空间
+
+为了不用mutations全局
+
+a/强制给命名空间加东西
+规范性强/
+
+actions {
+context 
+直接调用 modules里面
+}
+root：true 全局调用 
+
+commit（a/里面的的mutations）
+
+namespaced 声明作用域
+
+动态加载模块
+
+vuex热更新
+
+
+if（module.hot）{
+module.hot.accept（{
+这里写getters啥的
+
+
+}，（ =》{
+
+const new =require（getters路径
+）.default
+
+}））
+store.hotupadate（{
+
+state：newstate
+
+}）
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
