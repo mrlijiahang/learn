@@ -5,5 +5,3 @@ meta
 还有translation
 
 query对象  路由带的
-
-   
