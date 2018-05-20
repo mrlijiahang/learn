@@ -19,7 +19,7 @@ function observe(data) {
     }
     Object.keys(data).forEach(function(key) {
         defineReactive(data, key, data[key]);
-    });
+    });  
 };
  
 var library = {
