@@ -24,7 +24,7 @@ namespaced 声明作用域
 动态加载模块
 
 vuex热更新
-
+  
 
 if（module.hot）{
 module.hot.accept（{
