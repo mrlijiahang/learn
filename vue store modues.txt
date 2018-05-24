@@ -14,7 +14,7 @@ a/强制给命名空间加东西
 actions {
 context 
 直接调用 modules里面
-}
+}  
 root：true 全局调用 
 
 commit（a/里面的的mutations）
