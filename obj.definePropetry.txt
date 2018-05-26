@@ -11,4 +11,4 @@ Object.defineProperty(Book, 'name', {
 })
  
 Book.name = 'vue权威指南';  // 你取了一个书名叫做vue权威指南
-console.log(Book.name);  // 《vue权威指南》
+console.log(Book.name);  // 《vue权威指南》  
