@@ -14,7 +14,7 @@ mutations
 或者替换老的对象时候state.obj={...state.obj ,key:value }
 
 借用map辅助函数还是非常好的
-
+  
 参数解构
 add（{ a}）{
 b（‘123’）
