@@ -6,7 +6,7 @@
 
 vuex namespaced true 命名空间
 
-为了不用mutations全局
+为了不用mutations全局 
 
 a/强制给命名空间加东西
 规范性强/
