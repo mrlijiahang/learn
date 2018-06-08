@@ -11,7 +11,7 @@ vuex namespaced true 命名空间
 a/强制给命名空间加东西
 规范性强/
 
-actions {
+actions { 
 context 
 直接调用 modules里面
 }  
