@@ -1,4 +1,4 @@
-  <template>  
+   <template>  
   <div class="train-city">  
     <span @click='select(`大连`)'>大连</span>  
   </div>  
