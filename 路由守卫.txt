@@ -1,4 +1,4 @@
-带id  
+ 带id  
 然后props true
 可以调用组件 然后可以用
 $route 当前页面包含的信息
