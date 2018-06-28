@@ -1,4 +1,4 @@
-   store .state modules .a .text
+store .state modules .a .text
 区分store里面的东西
 
 模块化开发
